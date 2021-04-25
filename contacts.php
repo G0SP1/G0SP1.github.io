@@ -16,7 +16,7 @@
                         <li><a href="index.html">Главная</a></li>
                         <li><a href="busyness.html">Занятость</a></li>
                         <li><a href="mediahobbies.html">Медиа-увлечения</a></li>
-                        <li class="active"><a href="contacts.php">Контакты</a></li>
+                        <li class="active"><a href="/contacts.php">Контакты</a></li>
                     </ul>
                 </nav>
             </div>

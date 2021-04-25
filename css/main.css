@@ -38,6 +38,7 @@ body.busyness{
 body.mediahobbies{
 	background: url(../img/mediahobbies-bg.jpg);
 	background-size: cover;
+	padding-bottom: 200px;
 }
 
 body.contacts{
