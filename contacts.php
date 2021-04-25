@@ -26,7 +26,7 @@
             <div class="container">
                  <div class="animated corner-bot-form"></div>
                  <div class="animated corner-top-form"></div>
-                <form class="form" action="send.php" method="POST">
+                <form class="form" id="ajax_form" action="" method="POST">
                     <p>
                         Оставьте свои контакты и я свяжусь с Вами
                     </p>
@@ -34,8 +34,10 @@
                     <input type="email" name="email" placeholder="E-mail" required />
                     <input type="tel" name="phone" placeholder="Номер телефона" />
                     <input type="hidden" name="ip" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>">
-                    <button class="btn" type="submit">Отправить</button>
+                    <button class="btn" type="submit" id="btn">Отправить</button>
                 </form>
+                <div id="result_form">
+                </div>
             </div>
         </section>
 
@@ -57,5 +59,6 @@
 
      <script src="js/jquery-3.6.0.min.js"></script>
      <script src="js/main.js"></script>
+     <script src="js/ajax.js"></script>
     </body>
 </html>
